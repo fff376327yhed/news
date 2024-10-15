@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>나만의 뉴스 사이트</h1>
+        <nav>
+            <ul>
+                <li><a href="#latest">최신 뉴스</a></li>
+                <li><a href="#sports">스포츠</a></li>
+                <li><a href="#tech">기술</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="latest">
+        <h2>최신 뉴스</h2>
+        <article>
+            <h3>기사 제목 1</h3>
+            <p>이곳에 기사 내용을 작성하세요. 최신 뉴스를 친구들과 공유할 수 있습니다. 이 기사는 예시입니다.</p>
+            <button onclick="showMore('more1')">더 보기</button>
+            <p id="more1" style="display:none;">여기에 더 많은 내용을 추가할 수 있습니다.</p>
+        </article>
+
+        <article>
+            <h3>기사 제목 2</h3>
+            <p>여기에 두 번째 기사를 작성할 수 있습니다. 추가 정보도 포함할 수 있습니다.</p>
+            <button onclick="showMore('more2')">더 보기</button>
+            <p id="more2" style="display:none;">추가 정보가 여기에 표시됩니다.</p>
+        </article>
+    </section>
+
+    <section id="sports">
+        <h2>스포츠 뉴스</h2>
+        <article>
+            <h3>스포츠 기사 제목</h3>
+            <p>이곳에는 스포츠 관련 기사를 추가할 수 있습니다.</p>
+        </article>
+    </section>
+
+    <section id="tech">
+        <h2>기술 뉴스</h2>
+        <article>
+            <h3>기술 기사 제목</h3>
+            <p>기술과 관련된 최신 소식을 이곳에 추가하세요.</p>
+        </article>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 나만의 뉴스 사이트</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
